@@ -4,14 +4,14 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            {{-- <div class="col-12">
                 <select id="gender">
                     <option value="">---</option>
                     <option value="m">Male</option>
                     <option value="f">Female</option>
                 </select>
                 <button id="filtra">Filtra</button>
-            </div>
+            </div> --}}
             @foreach (config('db_students') as $student)
                 <div class="col-6">
                     <div class="student">
